@@ -58,7 +58,7 @@ if (producto.toUpperCase() === "A") {
   let precioBruto = suma(precioNeto, calculoIva);
 
   esResponsableInscripto(precioNeto, calculoIva, precioBruto);
-} else if (producto === "C" || producto === "c") {
+} else if (producto.toUpperCase() === "C") {
   let eleccion = "Mascara Hidratante";
   let precio = 250;
 
